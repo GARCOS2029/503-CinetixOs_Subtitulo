@@ -1,0 +1,35 @@
+# Python & Entornos Virtuales
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Multimedia & Archivos pesados
+uploads/*
+!uploads/.gitkeep
+data/*
+!data/.gitkeep
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.srt
+*.vtt
+*.ass
+*.wav
+*.zip
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Entorno y Secretos
+.env
+.env.local
+*.log

@@ -1,0 +1,11 @@
+fastapi>=0.100.0
+uvicorn>=0.22.0
+python-multipart>=0.0.6
+requests>=2.31.0
+
+# Transcripcion local (Whisper). Instalacion pesada pero 100% offline ($0.00).
+faster-whisper>=1.0.0
+
+# Deteccion OCR de subtitulos quemados (opcional: requiere `brew install tesseract`)
+Pillow>=10.0.0
+pytesseract>=0.3.10
